@@ -1,63 +1,172 @@
-<html>
-  <style>
-    body {
-      padding-left: 100px;
-      padding-right: 200px;
-    }
-  </style>
+<!DOCTYPE html>
+<html lang="en">
 
-  <title>Gemma's Portfolio</title>
-  <h2>Gemma's Portfolio</h2>
-  <img src="./gemma.png" />
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <main>
-    <h3>About Gemma</h3>
-    <section id="about me">
-      <p>
-        "Gemma's ~promising~ career was cut tragically short when she was found
-        crushed beneath her <a href="thecats.html"> pile of cats"</a>.
-      </p>
-      <p>
-        I am currently <strike>battling impostor syndrom</strike> developing
-        my coding skills with MIT Full Stack developer bootcamp. That is the
-        dream, anyway.
-      </p>
-    </section>
+  <title>Gemma's Space</title>
 
-    <section id="cv">
-      <h3>Professional Experience</h3>
-      <p>
-        MIT xPro &rarr; professional certificate in Coding: Full Stack Development
-        with MERN, Sept 2022 -
-      </p>
-      <p>Florida Real Estate Broker, Sept 2022 -</p>
-      <p>Licensed Pharmacist &rarr; State of Florida, 2009 -</p>
-      <p>Doctor of Pharmacy &rarr; University of Florida, 2005 - 2008</p>
-    </section>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
+    rel="stylesheet">
 
-    <section id="links">
-      
-      <h3>One more thing...</h3>
-      <p>
-        Astrology is fake but my codes give off big Taurus energy all the way: rude, adorable
-        little codes just stubbornly trying to get through shit and doing their best to work!
-      </p>
-      <p>Want to join me on this awkward journey?</p>
-      <p>
-        <b>Repositories:</b>
-        <a href="https://github.com/smolTypo"> GitHub </a>
-        </p>
-        <p>
-        <b>Resume:</b>
-        <a href="https://www.linkedin.com/in/gemmafong/"> LinkedIn</a>
-      </p>
-    </section>
-  </main>
+  <!-- BootStrap CSS Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+  <!-- My CSS Link -->
+  <link href="./styles.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
 
 
+</head>
+
+<body>
+
+  <!-- ======= I should know this cause it's all about meeeeeee Section ======= -->
+  <section id="gemma" class="d-flex flex-column align-items-center justify-content-center">
+    <h1>Hi, I'm Gemma!</h1>
+    <h2>I am currently doing a Full-Stack Development bootcamp with MIT xPRO</h2>
+    <a href="#about" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
+  </section>
+  <!-- End About me -->
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="./index.html">@Smol Typo</a></h1>
+      </div>
+
+      <!-- ===== Navbar ===== -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#gemma">Home</a></li>
+          <li><a class="nav-link scrollto" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+    </div>
+    </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>About me</h3>
+              <p>
+                Hi! I'm Gemma, I identify as an over-educated cat-woman. On GitHub you can
+                find my profile with the goofy user name of <span class="fst-italic">@smolTypo</span>
+                (yes, I make constant small mistakes, but
+                somehow still manage to get by). I am a pharmacist by trade, but I have recently
+                taken up coding in my spare time, finding it a great way to relax and challenge my mind. I have always
+                been intrigued with techs and outer space (hi, SpaceX!) and I am excited to finally have the
+                opportunity to learn more about it. I am determined to show the world that a cats-obsessed pharmacist
+                can also be a coding enthusiast!
+              </p>
+              </br>
+
+              <h4>Why coding?</h4>
+              <p>I love tackling the challenges of coding projects, trying out new tools and technologies, and learning
+                the best ways to solve problems. I am always looking for the best way to optimize my codes and ensure it
+                works properly. This MIT bootcamp has provided me with the perfect platform to explore my creativity and
+                potential.
+              </p>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
 
 
 
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>Join me on this awkard journey?</h2>
+          <p>Hey there! I noticed you stopped by my webpage. You are witnessing my first steps into the world of
+            programming. It was super intimidating to start
+            but also incredibly rewarding. Seeing those first lines of codes turn into the first functional program was an
+            incredibly exciting moment! If you're interested following me along the course progression, why not reach out to me on
+            LinkedIn and/or GitHub? If that sounds like too much of a commitment, you can always email me at
+            [serendikitty@gmail.com] and we can chat that way. Looking forward to hearing from you! </p>
+        </div>
+
+        <div class="row">
+
+          <!-- ===== Connect on Social Media ===== -->
+          <div class="col-lg-4 col-md-8">
+            <div class="contact-about">
+              <h3>Hi! I'm here!</h3>
+              <p>... and I love cats too!</p>
+              <div class="social-links">
+                <a href="https://www.instagram.com/smol_typo/" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/gemmafong/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/smolTypo" class="github"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ====== Maybe delete? ===== -
+          <div class="col-lg-5 col-md-6">
+            <div class="info">
+              <div class="d-flex align-items-center">
+                <p>Hello from Tampa, Florida!</br>
+                  email me: serendikitty@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        -->
+        </div>
+
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; <strong><span>smol typo 2022 </span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+
+
+</body>
 
 </html>
