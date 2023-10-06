@@ -498,11 +498,19 @@ section {
   .about .image img {
     max-width: 80%;
   }
+
+  body {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 667px) {
   .about .image img {
     max-width: 100%;
+  }
+
+  body {
+    padding: 10px;
   }
 }
 
